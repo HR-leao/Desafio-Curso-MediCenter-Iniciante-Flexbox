@@ -328,3 +328,20 @@ div .contato {
     color: red;
     display: flex;
 }
+.footer_area address {
+    display: flex;
+    justify-content: space-between;
+    color: #8c8c8c;
+
+}
+.qtexto {
+    flex: 1;
+
+}
+.qtexto2 {
+    padding-top: 18px;
+    flex: 1;
+}
+.footer_areaitem corbranco {
+    color: #fff;
+}
