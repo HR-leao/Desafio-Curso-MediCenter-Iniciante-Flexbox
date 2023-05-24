@@ -273,6 +273,11 @@ footer {
     background-color: #39aae1;
 }
 
+.fm1 div, .fm2 div, .fm3 div {
+    font-size: 23px;
+    margin-bottom: 26px;
+}
+
 .fm2 {
     background-color: #0079c7;
 }
@@ -306,4 +311,20 @@ footer .widget_title_text {
    color: #5c5c5c;
    font-size: 12px;
    margin-top: 30px;
+}
+
+div address .address {
+    display: flex;
+    flex-direction: row;
+    color: red;
+}
+
+div .loren {
+    color: #8c8c8c;
+    margin-bottom: 12px;
+}
+
+div .contato {
+    color: red;
+    display: flex;
 }
