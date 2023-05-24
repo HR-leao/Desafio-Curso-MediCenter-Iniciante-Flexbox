@@ -322,6 +322,7 @@ div address .address {
 div .loren {
     color: #8c8c8c;
     margin-bottom: 12px;
+    font-size: 12px;
 }
 
 div .contato {
@@ -343,5 +344,61 @@ div .contato {
     flex: 1;
 }
 .footer_areaitem corbranco {
-    color: #fff;
+    color: #eaeaea;
+}
+
+div .text_lastposts{
+    display: flex;
+    flex-direction: column;
+    color: #eaeaea;
+    font-size: 12px;
+    font-weight: 600px;
+    margin-left: 15px;
+
+}
+
+.text_lastposts div {
+    margin-bottom: 22px;
+
+}
+
+.text_lastposts span {
+    color: #4ea6c3;
+}
+
+.text_lasttweets div {
+    margin-bottom: 37px;
+    font-size: 12px;
+    color: 797979;
+}
+
+.text_lasttweets span {
+    color: #4ea6c3
+}
+
+.text_lasttweets corbranca {
+    color: #eaeaea;
+}
+
+.departament_cx {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.departament_cx  div {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.cx_dep{
+    background-color: #02a3dd;
+    justify-content: center;
+    margin-top: 48px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    height: 183px;
+    width: 150px;
+    flex-wrap: wrap;
 }
