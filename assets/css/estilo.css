@@ -383,8 +383,16 @@ div .text_lastposts{
 
 
 
-.departament_cx  { 
+.departament_cx div { 
     display: flex; 
+
+}
+
+@media (max-width:780px){
+    .departament_cx div{
+        flex-direction: column;
+        
+    }
 
 }
 
@@ -397,20 +405,6 @@ div .text_lastposts{
     margin-bottom: 5px;
     height: 183px;
     width: 150px;
-
-}
-
-
-
-@media (max-width:780px){
-    .departament_cx {
-        display: block;
-
-        background-color: red;
-        
-        
-   
-    }
 
 }
 
