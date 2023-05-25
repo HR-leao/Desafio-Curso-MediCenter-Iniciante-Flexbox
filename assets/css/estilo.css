@@ -199,6 +199,7 @@ nav a:hover {
     margin-bottom: 10px;
 }
 
+
 .flex {
     display: flex;
     flex-wrap: wrap;
@@ -380,17 +381,13 @@ div .text_lastposts{
     color: #eaeaea;
 }
 
-.departament_cx {
-    display: flex;
-    flex-wrap: wrap;
+
+
+.departament_cx  { 
+    display: flex; 
 
 }
 
-.departament_cx  div {
-    display: flex;
-    flex: 1;
-    flex-wrap: wrap;
-}
 
 .cx_dep{
     background-color: #02a3dd;
@@ -400,5 +397,38 @@ div .text_lastposts{
     margin-bottom: 5px;
     height: 183px;
     width: 150px;
-    flex-wrap: wrap;
+
 }
+
+
+
+@media (max-width:780px){
+    .departament_cx {
+        display: block;
+
+        background-color: red;
+        
+        
+   
+    }
+
+}
+
+
+.borda {
+    border-top: 1px solid #dedede;
+    margin-bottom: 5px;
+    padding: 23px;
+
+
+}
+.make_contato {
+    font-size: 13px;
+}
+div .borda a {
+    color: #55689e;
+    text-decoration-style: dotted;
+    
+}
+
+
