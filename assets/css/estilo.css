@@ -495,6 +495,10 @@ div .borda a {
     nav ul {
         flex-direction: column;
         display: none;
+        position: absolute;
+        left: 0px;
+        width: 100%;
+        background-color: #fff;
     }
 
     header {
